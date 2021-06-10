@@ -1,0 +1,16 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block title %} base page {% endblock %}
+
+{% block corecss %}
+<link rel="stylesheet" href="{% static 'core/css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<h2>about page is it for you</h2>
+
+{% include 'core/base.html' %}
+{% endblock %}

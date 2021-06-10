@@ -1,0 +1,14 @@
+data base start
+only data base created here where to wherer 
+
+what is migrations
+
+migrate
+python manage.py makemigrate
+python manage.py migrate
+python manage.py showmigrateion
+python manage.py sqlmigrate appname 0001
+
+downlode db.browser sql3
+
+

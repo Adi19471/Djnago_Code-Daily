@@ -1,0 +1,15 @@
+h1{
+    color: rgba(95, 95, 13, 0.39);
+    text-align: center;
+}
+
+img{
+    border: 0pt ridge violet;
+    width: 100%;
+    height: 100%;
+   
+}
+
+body{
+    background-color: teal;
+}

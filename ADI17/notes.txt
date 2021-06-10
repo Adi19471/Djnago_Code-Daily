@@ -1,0 +1,19 @@
+application files under static files install and templates 
+
+settings
+static
+templates
+
+
+add files each sub apps 
+
+
+css
+<link rel="stylesheet" href="{% static 'css/cs.css' %}">
+
+img 
+<img src="{% static 'images/adi.jpg' %}">
+
+javascript
+
+<script src="{% static 'js/java.js' %}">

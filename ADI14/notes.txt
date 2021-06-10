@@ -1,0 +1,28 @@
+This is template inside project 
+
+we have to create all application under work 
+
+
+
+
+MAIN PROJECT
+APP1
+APP2
+
+settings.py install APPS
+
+Template  Root under Project
+
+app name under template
+
+side by side one.html
+	two.html
+
+create template folder
+
+[root project foolder		from .import views
+views.py			from django.shortcuts import render
+				
+urls.py]			
+
+

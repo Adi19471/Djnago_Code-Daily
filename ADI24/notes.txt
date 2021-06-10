@@ -1,0 +1,16 @@
+crud only data base retrive back to ftent onli
+
+classname.objects.all()
+
+classname.objects.get(pf=2)
+
+
+if condition
+
+for condition check 
+
+table cheak 
+
+
+
+

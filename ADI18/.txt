@@ -1,0 +1,19 @@
+templates inheritence 
+
+one place to another place
+
+parent to child
+
+files 
+----------------------
+{% extends %}
+
+tile include
+----------------------
+{% block title %}
+{% endblock %}
+
+content include
+--------------------------
+{% block content %}
+{% endblock %}

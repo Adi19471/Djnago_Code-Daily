@@ -1,0 +1,21 @@
+
+
+
+
+        Active Virtuval Enviralment(VE)
+
+        workon envname-----This is used activate envirolment
+
+        Uninstall Django From VE
+        pip install django -This is used to Uninstall django,
+
+        Remove Virtuval Enviralment
+        rmvirtuvalenv envname- This is used to remove virtuval envirolment
+
+
+        Uninstall Virtuval Enviralment
+        pip Uninstall virtuvalenvwrapper-win ---This is used Uninstall Virtuval envirolment Wrapper
+
+
+
+        

@@ -1,0 +1,71 @@
+        DJANGO REQUIREMENTS?
+
+
+        Python 3.0 or Higher
+        python--version
+
+
+
+        CHECK DJANGO INSTALL or Not 
+
+        django-admin --version 
+
+
+        HOW TO INSTALL DJANGO 
+
+        * Separate Virtuval Enviralment
+        * GLobal inveiralment
+
+
+        INSTALL DJANGO in SEPARATE Environment
+        Install Virtuval Enviralment Wrapper
+
+        pip install virtualenvwrapper-win -------> This is used to install Virtuval Enviralment Wrapper
+
+
+        Create VIrtuval Enviralment(VE)
+
+        mkvirtualenv envname -This is used virtuval envirolment .It will automatically activated envirolment
+
+
+        Active VE
+        workon envname - this is used activate envirolment
+
+
+        INSTAL DJANGO in Created VE
+
+        pip install django -First activate envirolment then the run the command to install django within activate envirolment.You can specify pip install django==2.0
+
+
+
+        DJANGO Project
+
+        # A Django Projects may contain Multiple Project Application ,Which means a group of Application and Files is Called "DJANGO"
+
+
+        # an Application is a part of Django Project
+
+        SchoolProject
+
+            -Registarion App
+            -Fees App
+            -Exam App
+            -Attendence App
+            -Result App
+
+
+
+
+
+
+            CREATE DJANGO Project:----
+            -----------------------
+
+            Syntax:-
+            django-admin startproject (projectname)
+            Example:-
+            django-admin startproject savethechildren
+
+
+
+            

@@ -1,0 +1,24 @@
+            DO YOU KNOW?
+
+            HTML
+            CSS
+            JAVASCRIPT
+            SQL
+            PYTHON
+            PIP
+            MVT
+            BOOTSTRAP
+
+
+
+            DJANGO REQUIREMENTS
+
+
+            python 3.0 or Higher
+            PIP
+            TEXT/Editor IDE--Nootpad,Atom.Brackets,Vs code,Pycharm
+
+
+            
+
+

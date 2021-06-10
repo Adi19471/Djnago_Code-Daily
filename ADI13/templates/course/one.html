@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE</title>
+</head>
+<style>
+body{
+    background-color:red;
+
+}
+</style>
+<body>
+    <h1>DJANGO TEMPLATE LANGAGE</h1>
+
+    {% comment %} <h2>ADI {{dt|date:'D d M Y'}}</h2>
+    <h2>ADI {{dt|date:'d M Y'}}</h2>
+    <h2>ADI {{dt|time:'H:i'}}</h2>
+    <h2>ADI {{dt|time:'TIME_FORMAT'}}</h2> {% endcomment %}
+   <p>{{p}}</p>
+{% comment %} <h2>{{p|floatformat:"0"}}
+<h2>{{p|floatformat:"3"}}
+<h2>{{p|floatformat:"0"}}
+<h2>{{p|floatformat:"-1"}}
+<h2>{{p|floatformat:"3"}}
+<h2>{{p|floatformat}} {% endcomment %}
+
+
+{% comment %} {% if nm and st %}
+<h2>ADI {{nm}}and {{st}}</h2>
+{% endif %}
+
+
+{% if nm or st %}
+<h2>CHINNA{{nm|length}}and {{st}}</h2>
+{% endif %}
+
+{% if   dd %}
+<small>DEVELOPER {{dd|time:'H:i'}} and {{st}}</small>
+{% endif %}
+
+
+{% if nm and st %}
+<h2>ADI {{nm}}and {{st}}</h2>
+{% endif %}
+
+
+{% if nm or st %}
+<h2>CHINNA{{nm|length}}and {{st}}</h2>
+{% endif %}
+
+{% if   dd %}
+<small>DEVELOPER {{dd|time:'H:i'}} and {{st}}</small>
+{% endif %}
+
+{% if nm and st %}
+<h2>ADI {{nm}}and {{st}}</h2>
+{% endif %}
+
+
+{% if nm or st %}
+<h2>CHINNA{{nm|length}}and {{st}}</h2>
+{% endif %}
+
+{% if   dd %}
+<small>DEVELOPER {{dd|time:'H:i'}} and {{st}}</small>
+{% endif %}
+
+{% if nm and st %}
+<h2>ADI {{nm}}and {{st}}</h2>
+{% endif %}
+
+
+{% if nm or st %}
+<h2>CHINNA{{nm|length}}and {{st}}</h2>
+{% endif %}
+
+{% if   dd %}
+<small>DEVELOPER {{dd|time:'H:i'}} and {{st}}</small>
+{% endif %} {% endcomment %}
+{% comment %} 
+{% if  st|upper %}
+<h2> PYTHON  {{st}}  DEVELOPER ADI</h2>
+
+{% endif %}
+
+
+{% if st == "DEVELOPR ADI" %}
+
+<h2>ADINARAYAN REDDY</h2>
+
+{% else %}
+<h1>no DJANGO {{st}}</h1>
+{% endif %} {% endcomment %}
+
+{% comment %} <ol>
+{% for i  in  ADI  %}
+
+{{forloop.revcounter0]}}{{i}}<br>
+
+
+
+{% endfor %} 
+</ol>{% endcomment %}
+
+{% comment %} <h3>{{data}}</h3> {% endcomment %}
+
+
+{% for key,value in data.items %}
+
+{{key}}={{value}}<br>
+
+{% endfor %}
+</body>
+</html>

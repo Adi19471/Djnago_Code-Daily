@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    {% block title %} OTHER {% endblock %}
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="{% static 'core/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css' %}">
+    {% block corecss %}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+<h1> developer django  </h1>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>DJANGO COURSE</li>
+
+           
+        </ul>
+    </nav>
+<h3>web developer adi</h3>
+
+{% include 'core/navbar.html' %}
+<img src="{% static 'core/images/apssdc.jpg' %}">
+
+<i class="fas fa-chalkboard"></i>
+<i class="fas fa-chalkboard-teacher"></i>
+
+   
+<script src="{% static 'core/js/all.min.js' %}"></script>
+<script src="{% static 'core/js/boostrap.js' %}"></script>
+<script src="{% static 'core/js/jquery.js' %}"></script>
+<script src="{% static 'core/js/proper.js' %}"></script>
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+
+
+
+
+   {% endblock %}
+</body>
+</html>

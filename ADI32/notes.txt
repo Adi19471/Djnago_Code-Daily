@@ -1,0 +1,8 @@
+loop exites in home.html
+
+
+{{% for i in forms %}}
+
+{{i}}
+
+{{%endfor %}}

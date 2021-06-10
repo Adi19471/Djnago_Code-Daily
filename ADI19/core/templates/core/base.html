@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    {% block title %} OTHER {% endblock %}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+</head>
+<body>
+    {% block content %}
+<h1> developer django  </h1>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>DJANGO COURSE</li>
+        </ul>
+    </nav>
+<h3>web developer adi</h3>
+<img src="{% static 'core/images/apssdc.jpg' %}"
+   
+   {% endblock %}
+</body>
+</html>

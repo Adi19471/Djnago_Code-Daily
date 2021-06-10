@@ -1,0 +1,41 @@
+
+        DJANGO PROJECT DICTIONARY STRUCTURW
+        =================================
+
+    geekysshows
+
+    outer Project Foler/Root DICTIONARY
+
+    Inner Project Folder
+
+
+    _init_py.py:- The Folder which containes __init__.py file is consider as python package
+---------------
+    
+
+                wsgi.py:- WSGI(Web Server Gateway Interface) is a specified that description how  a web server communication with web application and how application
+                can chainged together process one request.WSGI provide a standard  for a Synchrounous Python Apps
+
+
+                asgi.py:- ASGI(Asynchrounous Server Gateway Interface) is a sprituval successer to WSGI inteneded to WSGI,to provide a 
+                standard Interface between asyn-capable Python web Server and application ASGI providers.
+
+
+
+                Settings.py:-This file containes all the information or data about project settings.
+
+                    ex:- DAtabase,port,templates,static..........validaters etc..
+
+`               urls.py:--This file containes information of urls attached web application
+
+                mannge.py:-mannge.py automatically create in DJANGO project its is django command line utility also set django_setting_modeule
+                modules envirolment varaible so that is points to your project settings 
+
+                genarally when working on a singile django its easer to use manage.py django admin.
+
+                
+                
+
+
+
+

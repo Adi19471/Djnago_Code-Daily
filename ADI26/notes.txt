@@ -1,0 +1,21 @@
+def __str__self():
+	return self.name
+
+(model fields name like str or name)
+
+
+def __str__(self):
+	return str(self.id)
+
+process
+
+project
+app
+settings
+templates
+urls
+views
+models
+admin.py
+
+main urls

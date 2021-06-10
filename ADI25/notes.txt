@@ -1,0 +1,10 @@
+admin login interfaece
+
+
+chinna
+019471
+
+python manage.py ceatesuperuser
+
+this is crud operatin building appliacation 
+withous mysql 

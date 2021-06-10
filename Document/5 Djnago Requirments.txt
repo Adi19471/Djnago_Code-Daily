@@ -1,0 +1,24 @@
+
+
+
+
+
+HOW TO Uninstall DJANGO ?
+
+HOW TO INSTAL DJANGO ?
+
+
+pip Uninstall django
+
+pip install django==3.0.2   Which(version do you want mention other wise defoult downlode present version)
+
+
+                            NOTE :- som version not support so choose best version
+
+
+
+Django version
+==============
+
+        A Django projects may contain Multiple Projects Application Which means a group of Application and files is Called 
+        "DJANGO Projects"

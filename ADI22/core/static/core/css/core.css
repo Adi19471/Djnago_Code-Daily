@@ -1,0 +1,47 @@
+h1{
+    color: burlywood;
+    background-color: #000000;
+    text-align: center;
+    letter-spacing: 1ch;
+    text-transform: uppercase;
+}
+nav {
+    border: 1px ridge rgb(228, 17, 17);
+    width: 120px;
+    display:grid;
+    padding: 10px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 50%;
+    margin-top: -20px;
+    
+}
+ul li{
+    float: left;
+    list-style: none;
+    color: rgb(53, 226, 238);
+}
+body{
+    background-color: rgb(188, 34, 194);
+}
+
+h3{
+   margin-left: 150px;
+   margin-top: -120px;
+   text-align: center;
+   background-color: cadetblue;
+   color: white;
+   margin-right: 250px;
+}
+img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:1020px;
+    margin-top: -45px;
+
+}
+
+*{
+   scroll-behavior: smooth;
+}

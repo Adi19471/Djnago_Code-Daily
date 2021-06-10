@@ -1,0 +1,9 @@
+dynamic to wirte the code 
+
+views.py
+
+fm = StudentRegister(auto_id=True,label_suffix=":",initial={'nmae':'chinna')
+
+
+
+jest forms.py proper set name ,:,id name,
