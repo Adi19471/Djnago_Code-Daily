@@ -1,0 +1,4 @@
+validaters complete django from ar once
+
+valname = self.cleaned_data['name']
+

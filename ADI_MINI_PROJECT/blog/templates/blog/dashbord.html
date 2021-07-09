@@ -1,0 +1,52 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+
+
+{% if messages %}
+{% for message in messages %}
+<script>
+    alert('{{message}}')
+</script>
+{% endfor %}
+
+{% endif %}
+<div class="col-sm-10">
+    <h3 class="text-white my-5">Dashboard page</h3>
+    <h1 class="alert alert-warning  text-center">Welcome to Django MIN BLOG SITE ADI</h1>
+    
+    <button class="alert alert-secondary"><a href="{% url 'addpost' %}" class="btn btn-secondary">ADDPOST</a></button>
+    
+    <table class="table table-bordered table-info table-secondary">
+        <caption>List of users</caption>
+        <thead "table-light">
+            <tr>
+                <th>SRNO</th>
+                <th>TITLE</th>
+                <th>DESCRIPTION</th>
+                <th>POST&nbsp;DATE</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        {% for post in posts %}
+        <tbody>
+            <tr>
+                <th>{{post.id}}</th>
+                <td>{{post.title}}</td>
+                <strong style="color: aqua;"><td>{{post.desc}}</td></strong>
+                <td>{{post.date_time}}</td>
+                <td class="text-center offset-2">
+                    <a href="{% url 'updatepost' post.id %}" class="btn btn-warning btn-sm">Edit</a>
+                    <form action="{% url 'deletepost' post.id %}" method="POST" class="d-inline">
+                        {% csrf_token %}
+                        <input type="submit" class="btn btn-danger btn-sm" value="Delete">
+                    </form>
+                </td>
+            </tr>
+
+        </tbody>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock content %}

@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(63, 65, 64, 0.52);
+    color: rgb(245, 245, 245);
+}
+
+.jumbo-back{
+    background-color: rgba(185, 211, 185, 0.938);
+}
+
+form{
+    color:palegreen
+}
+form-group{
+    background-color: rgba(36, 37, 37, 0.931);
+
+    
+
+}
+.form-control:focus{
+    background-color: rgb(160, 137, 137);
+}
+
+
+/* about cursol detailes styyle */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 10px double rgba(32, 30, 30, 0.651);
+    border-radius: 5px 10px 5px 10px;
+    
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

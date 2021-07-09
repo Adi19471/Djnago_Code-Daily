@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="col-md-10">
+    <h1 class="text-warning my-5">Home page</h1>
+    {% for post in posts %}
+    <div class="container">
+    <div class="jumbotron jumbotron-fluid jumbo-back">
+        
+            TITLE:-<h1 class="display-6" style="color: rgb(255, 253, 253);">{{post.title}}</h1>
+            DESCRIPTION ABOUT:-<p class="lead" style="color: rgb(21, 26, 26);font-style:arial;text-align:left;">{{post.desc}}</p><br>
+            POSTED DATE:-<small style="font-size: xx-large;">{{post.date_time}}</small><br><br><hr>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}

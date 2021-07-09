@@ -1,0 +1,14 @@
+backend data store the data in admin part 
+
+
+
+
+  #reg = User(id = 1 ,name=nm,email=em,password=pa)
+
+    # data save backend
+      #reg.save()
+
+
+
+
+use in views.py  part

@@ -1,0 +1,6 @@
+validation of complete 
+
+def clean(self):
+	cleaned_date: = super().clean(
+
+	valname = self.cleaned_data['name']-
